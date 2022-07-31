@@ -4,6 +4,11 @@
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <Title>Wrapper for pdflatex</Title>
+        <Description>Simple wrapper for command line tool 'pdflatex' installed with MiKTeX on windows</Description>
+        <RepositoryUrl>https://github.com/kentaasvang/kentaasvang.PdfLatex</RepositoryUrl>
+        <RepositoryType>github</RepositoryType>
+        <PackageReleaseNotes>small beta </PackageReleaseNotes>
     </PropertyGroup>
 
 </Project>

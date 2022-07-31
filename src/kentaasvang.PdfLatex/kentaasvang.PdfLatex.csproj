@@ -8,7 +8,17 @@
         <Description>Simple wrapper for command line tool 'pdflatex' installed with MiKTeX on windows</Description>
         <RepositoryUrl>https://github.com/kentaasvang/kentaasvang.PdfLatex</RepositoryUrl>
         <RepositoryType>github</RepositoryType>
+        <PackageTags>pdflatex miktex latex pdf</PackageTags>
         <PackageReleaseNotes>small beta </PackageReleaseNotes>
+        <PackageId>kentaasvang.PdfLatex</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>kentaasvang</Authors>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageLisenceFile>LICENSE</PackageLisenceFile>
     </PropertyGroup>
+    
+    <ItemGroup>
+        <None Include="LICENSE" Pack="true" PackagePath="" />
+    </ItemGroup>
 
 </Project>

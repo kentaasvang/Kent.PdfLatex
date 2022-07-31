@@ -8,7 +8,6 @@ namespace kentaasvang.PdfLatex;
 /// </summary>
 public class PdfLatexBuilder
 {
-	private const string                    EXECUTABLE = "pdflatex.exe";
 	private       PdfLatexArguments         Arguments     { get; } = new();
 	private       DataReceivedEventHandler? outputHandler { get; set; }
 
@@ -49,6 +48,35 @@ public class PdfLatexBuilder
 		return this;
 	}
 
+	/// <summary>
+	/// Pretend to be APP.  This affects both the format used and the search path. 
+	/// </summary>
+	/// <param name="app">the alias</param>
+	public PdfLatexBuilder Alias(string app)
+	{
+		Arguments.AddArgument($"-alias={app}");
+		return this;
+	}
+
+	/// <summary>
+	/// Use DIR as the directory to write auxiliary files to. 
+	/// </summary>
+	/// <param name="dir">path to dir</param>
+	public PdfLatexBuilder AuxDirectory(string dir)
+	{
+		Arguments.AddArgument($"-aux-directory={dir}");
+		return this;
+	}
+	
+	/// <summary>
+	/// Switch on draft mode (generates no output). 
+	/// </summary>
+	public PdfLatexBuilder DraftMode()
+	{
+		Arguments.AddArgument("-draftmode");
+		return this;
+	}
+	
 	/// <summary>
 	/// Enable the package installer.  Missing files will be installed.
 	/// </summary>

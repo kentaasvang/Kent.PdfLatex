@@ -2,6 +2,13 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kentaasvang.PdfLatex", "kentaasvang.PdfLatex\kentaasvang.PdfLatex.csproj", "{23205A53-3D12-4FA9-B461-E87078C80CAE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kentaasvang.PdfLatex.Test", "kentaasvang.PdfLatex.Test\kentaasvang.PdfLatex.Test.csproj", "{03191EBA-6B75-4926-A3B7-C00609CB46DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "files", "files", "{F7C8A916-4753-4021-9513-D1D45EE6BF73}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +19,9 @@ Global
 		{23205A53-3D12-4FA9-B461-E87078C80CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23205A53-3D12-4FA9-B461-E87078C80CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23205A53-3D12-4FA9-B461-E87078C80CAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03191EBA-6B75-4926-A3B7-C00609CB46DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03191EBA-6B75-4926-A3B7-C00609CB46DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03191EBA-6B75-4926-A3B7-C00609CB46DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03191EBA-6B75-4926-A3B7-C00609CB46DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

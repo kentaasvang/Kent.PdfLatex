@@ -3,6 +3,9 @@ using System.Text;
 
 namespace kentaasvang.PdfLatex;
 
+/// <summary>
+/// Wrapper for pdflatex 
+/// </summary>
 public class PdfLatexBuilder
 {
 	private const string                    EXECUTABLE = "pdflatex.exe";

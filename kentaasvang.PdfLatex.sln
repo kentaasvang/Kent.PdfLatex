@@ -1,13 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kentaasvang.PdfLatex", "kentaasvang.PdfLatex\kentaasvang.PdfLatex.csproj", "{23205A53-3D12-4FA9-B461-E87078C80CAE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kentaasvang.PdfLatex.Test", "kentaasvang.PdfLatex.Test\kentaasvang.PdfLatex.Test.csproj", "{03191EBA-6B75-4926-A3B7-C00609CB46DD}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "files", "files", "{F7C8A916-4753-4021-9513-D1D45EE6BF73}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FC09BEAC-50B9-499C-B3FD-0E6420C224F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E720596E-9A30-404A-A0FE-4D8F07D68D8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kentaasvang.PdfLatex", "src\kentaasvang.PdfLatex\kentaasvang.PdfLatex.csproj", "{68E2260A-2AC2-427C-8F1F-586186D7B32D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kentaasvang.PdfLatex.Test", "tests\kentaasvang.PdfLatex.Test\kentaasvang.PdfLatex.Test.csproj", "{9BA05B94-8C30-40B4-AF0A-2AD512D41666}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,13 +19,17 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{23205A53-3D12-4FA9-B461-E87078C80CAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{23205A53-3D12-4FA9-B461-E87078C80CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{23205A53-3D12-4FA9-B461-E87078C80CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{23205A53-3D12-4FA9-B461-E87078C80CAE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{03191EBA-6B75-4926-A3B7-C00609CB46DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{03191EBA-6B75-4926-A3B7-C00609CB46DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{03191EBA-6B75-4926-A3B7-C00609CB46DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{03191EBA-6B75-4926-A3B7-C00609CB46DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68E2260A-2AC2-427C-8F1F-586186D7B32D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68E2260A-2AC2-427C-8F1F-586186D7B32D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68E2260A-2AC2-427C-8F1F-586186D7B32D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68E2260A-2AC2-427C-8F1F-586186D7B32D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BA05B94-8C30-40B4-AF0A-2AD512D41666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA05B94-8C30-40B4-AF0A-2AD512D41666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BA05B94-8C30-40B4-AF0A-2AD512D41666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BA05B94-8C30-40B4-AF0A-2AD512D41666}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{68E2260A-2AC2-427C-8F1F-586186D7B32D} = {FC09BEAC-50B9-499C-B3FD-0E6420C224F6}
+		{9BA05B94-8C30-40B4-AF0A-2AD512D41666} = {E720596E-9A30-404A-A0FE-4D8F07D68D8B}
 	EndGlobalSection
 EndGlobal

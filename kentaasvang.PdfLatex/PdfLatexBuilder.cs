@@ -5,15 +5,14 @@ namespace kentaasvang.PdfLatex;
 
 public class PdfLatexBuilder
 {
-	private const string                    EXECUTABLE = "pdflatex.exe";
 	private       PdfLatexArguments         Arguments     { get; } = new();
-	private       DataReceivedEventHandler? outputHandler { get; set; }
+	private       DataReceivedEventHandler? OutputHandler { get; set; }
 
 	public async Task Run()
 	{
 		StringBuilder output = new();
 
-		outputHandler = OutputDataReceived;
+		OutputHandler = OutputDataReceived;
 
 		// call executable
 		var process = new Process().InitiateProcess();
@@ -25,8 +24,8 @@ public class PdfLatexBuilder
 		process.BeginOutputReadLine();
 		process.BeginErrorReadLine();
 
-		if (outputHandler is not null)
-			process.OutputDataReceived += outputHandler;
+		if (OutputHandler is not null)
+			process.OutputDataReceived += OutputHandler;
 
 		await process.WaitForExitAsync();
 
@@ -128,7 +127,7 @@ internal class PdfLatexArguments
 
 public static class Extensions
 {
-	private const string EXECUTABLE = "pdflatex.exe";
+	private const string EXECUTABLE = "pdflatex";
 
 	public static Process InitiateProcess(this Process process)
 	{

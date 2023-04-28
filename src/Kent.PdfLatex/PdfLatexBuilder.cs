@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using System.Text;
 
-namespace kentaasvang.PdfLatex;
+namespace Kent.PdfLatex;
 
 public class PdfLatexBuilder
 {

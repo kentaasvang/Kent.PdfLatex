@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3F4AFB9E-F617-49AE-A63D-1E1C7A3F0007}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kent.PdfLatex", "src\Kent.PdfLatex\Kent.PdfLatex.csproj", "{433AD80C-808A-470F-8593-7F5E990CABEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kent.PdfLatex.ConsoleUI", "src\Kent.PdfLatex.ConsoleUI\Kent.PdfLatex.ConsoleUI.csproj", "{89AD4A48-838F-408D-8A10-4B0334F87A05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{433AD80C-808A-470F-8593-7F5E990CABEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{433AD80C-808A-470F-8593-7F5E990CABEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{433AD80C-808A-470F-8593-7F5E990CABEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{433AD80C-808A-470F-8593-7F5E990CABEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89AD4A48-838F-408D-8A10-4B0334F87A05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89AD4A48-838F-408D-8A10-4B0334F87A05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89AD4A48-838F-408D-8A10-4B0334F87A05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89AD4A48-838F-408D-8A10-4B0334F87A05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{433AD80C-808A-470F-8593-7F5E990CABEE} = {3F4AFB9E-F617-49AE-A63D-1E1C7A3F0007}
+		{89AD4A48-838F-408D-8A10-4B0334F87A05} = {3F4AFB9E-F617-49AE-A63D-1E1C7A3F0007}
+	EndGlobalSection
+EndGlobal
